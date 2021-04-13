@@ -1,0 +1,21 @@
+.imagePannel {
+  width: 100vw;
+  height: 56.25vw;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  .pannelImg {
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+  :global {
+    .fabric-canvas {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+    }
+  }
+}

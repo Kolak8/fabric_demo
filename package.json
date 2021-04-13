@@ -20,13 +20,15 @@
     ]
   },
   "dependencies": {
+    "@msgpack/msgpack": "^2.5.1",
     "@ant-design/pro-layout": "^6.5.0",
     "@umijs/preset-react": "1.x",
-    "umi": "^3.4.8",
     "classnames": "^2.2.6",
-    "fabric": "^4.3.1"
+    "fabric": "^4.3.1",
+    "umi": "^3.4.8"
   },
   "devDependencies": {
+    "@types/babel__traverse": "^7.11.1",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "@umijs/test": "^3.4.8",
